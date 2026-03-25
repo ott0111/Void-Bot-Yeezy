@@ -1,3 +1,6 @@
+function isEnabled() {
+  return global.antiNukeEnabled !== false;
+}
 const { log } = require('../systems/logger');
 
 let actions = {};
